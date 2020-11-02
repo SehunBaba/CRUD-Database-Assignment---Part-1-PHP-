@@ -1,0 +1,37 @@
+<!-- 
+
+Author: Sehun Babatunde
+
+Version: 1.0
+
+-------------------------------------------------------------- 
+ -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Login</title>
+        <link href="style.css" rel="stylesheet" type="text/css"> <!-- Add  our Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"> <!--  Nice Icons! :)  -->
+    </head>
+    <body>
+        <div class="login">
+            <h1>Login</h1>
+            <a href="register.html">Don't have an account? Register here!</a>
+            <form action="authenticate.php" method="post">
+                <label for="username">
+                    <i class="fas fa-user"></i>
+                </label>
+                 <!-- The required keyword provides some simple validation for blank fields, requring both labels to at least have some text in them. -->
+                <input type="text" name="username" placeholder="Please enter your username" id="username" required>
+                <label for="password">
+                    <i class="fas fa-lock"></i>
+                </label>
+                <input type="password" name="password" placeholder="Please enter your password" id="password" required> <!-- Black dots for password -->
+                <input type="submit" value="Log In">
+            </form>
+        </div>
+       
+    </body>
+</html>

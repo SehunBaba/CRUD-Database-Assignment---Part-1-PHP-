@@ -1,0 +1,68 @@
+<html>
+
+    <meta charset="utf-8">
+    
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+
+    
+
+<nav class="navtop">
+    <div>
+        <h1>Add new Prescription</h1>
+        <a href="crud.php"><i class="fas fa-address-book"></i>Prescriptions</a>
+        <a href="profile.php"><i class="fas fa-user-circle"></i>Profile</a>
+        <a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
+    </div>
+</nav>
+
+
+
+
+
+<head>
+    <title>Add Prescription</title>
+</head>
+ 
+<body>
+    <a href="crud.php">Home</a>
+    <br/><br/>
+ 
+    <form action="add.php" method="post" name="form1">
+        <table width="25%" border="0">
+            <tr> 
+                <td>Name</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+
+            <tr> 
+                <td>Email</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+
+            <tr> 
+                <td>Doctor</td>
+                <td><input type="text" name="doctor"></td>
+            </tr>
+
+
+            <tr> 
+                <td>Medication</td>
+                <td><input type="text" name="medication"></td>
+            </tr>
+            
+            <tr> 
+                <td>Pickup Date</td>
+                <td><input type="date" name="pickup_date"></td>
+            </tr>
+            
+
+
+            <tr> 
+                <td></td>
+                <td><input type="submit" name="Submit" value="Add"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
